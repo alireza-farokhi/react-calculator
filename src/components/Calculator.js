@@ -5,6 +5,12 @@ import Formula from './Formula';
 import Output from './Output';
 import '../App.scss';
 
+/* global React, ReactDOM */
+/* eslint-disable react/prop-types, react/no-multi-comp,
+ no-eval, no-nested-ternary */
+
+// eslint-disable-next-line no-unused-vars
+
 // VARS:
 const isOperator = /[x/+‑]/,
   endsWithOperator = /[x+‑/]$/,
